@@ -1,6 +1,10 @@
-# RezMatch
-
-**Get Past the Bots. Impress the Humans.**
+<h1 align="center">RezMatch</h1>
+<p align="center">
+  <em>Get past the bots. Impress the humans.</em><br/>
+  <a href="https://github.com/JessieG-TY/RezMatch/actions"><img src="https://github.com/JessieG-TY/RezMatch/actions/workflows/ci.yml/badge.svg" alt="CI"/></a>
+  <a href="https://github.com/JessieG-TY/RezMatch/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="MIT license"/></a>
+  <img src="https://img.shields.io/github/stars/JessieG-TY/RezMatch?style=social" alt="stars"/>
+</p>
 
 RezMatch is an AI-powered resume analysis platform that helps job seekers optimize their resumes for both Applicant Tracking Systems (ATS) and human recruiters. The platform scores resumes based on key dimensions, provides actionable suggestions, and supports OpenAI integration for deeper insights.
 
@@ -56,7 +60,13 @@ RezMatch is an AI-powered resume analysis platform that helps job seekers optimi
 - `.env` configuration for Firebase and OpenAI keys
 - React Router-based navigation
 
-## 🛠️ Tech Stack
+## 📸 Demo
+
+| Home | Scorecard | Dashboard |
+|------|-----------|-----------|
+| ![Home](./screenshots/home.png) | ![Scorecard](./screenshots/scorecard.png) | ![Dashboard](./screenshots/dashboard.png) |
+
+### 🛠️ Tech Stack
 
 | Layer       | Main Tools / Libraries                |
 |-------------|---------------------------------------|
@@ -66,3 +76,19 @@ RezMatch is an AI-powered resume analysis platform that helps job seekers optimi
 | Charts      | Recharts                              |
 | Deployment  | Works great on Vercel / Netlify       |
 
+
+### 🚀 Quick Start
+
+```bash
+# Clone
+git clone https://github.com/JessieG-TY/RezMatch.git
+cd RezMatch
+
+# Install deps
+npm install
+
+# Configure env vars (see table below)
+cp .env.example .env
+
+# Launch dev server
+npm run dev
