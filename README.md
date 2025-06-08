@@ -12,6 +12,10 @@ RezMatch is an AI-powered resume analysis platform that helps job seekers optimi
 <img width="1710" alt="截屏2025-06-04 下午11 50 44" src="https://github.com/user-attachments/assets/b43b0bec-853f-4b80-b1c2-619f8ba6db12" />
 
 
+## 🤝 Contributing to RezMatch
+We’re thrilled you’re interested in making RezMatch even better!
+Whether you’re squashing bugs, adding new scoring dimensions, or improving docs, every contribution counts. Follow the guidelines below to ensure a smooth experience for everyone.
+
 ## 🔥 Features
 
 ### 🧠 **AI-Powered Resume Scoring**
